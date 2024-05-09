@@ -7,9 +7,22 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dist": "webpack"
     },
-    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/entrylabs/entry-tool.git"
+    },
+    "bugs": {
+        "url": "https://github.com/entrylabs/entry-tool/issues"
+    },
+    "homepage": "https://playentry.org",
+    "keywords": [
+        "entryjs",
+        "entry-js",
+        "entryjs-lagacy-video",
+        "video-util"
+    ],
     "author": "usbsync",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "@tensorflow-models/coco-ssd": "^2.2.3",
         "@tensorflow-models/posenet": "^2.2.2",
@@ -26,5 +39,10 @@
     "devDependencies": {
         "terser-webpack-plugin": "^5.3.10",
         "worker-loader": "^3.0.8"
-    }
+    },
+    "files": [
+        "dist/",
+        "types/",
+        "package.json"
+    ]
 }
