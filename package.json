@@ -1,0 +1,30 @@
+{
+    "name": "@entrylabs/legacy-video",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dist": "webpack"
+    },
+    "keywords": [],
+    "author": "usbsync",
+    "license": "ISC",
+    "dependencies": {
+        "@tensorflow-models/coco-ssd": "^2.2.3",
+        "@tensorflow-models/posenet": "^2.2.2",
+        "@tensorflow/tfjs": "^1.7.0",
+        "@tensorflow/tfjs-converter": "^1.7.0",
+        "@tensorflow/tfjs-core": "^1.7.0",
+        "face-api.js": "^0.22.1",
+        "lodash": "^4.17.21",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "devDependencies": {
+        "terser-webpack-plugin": "^5.3.10",
+        "worker-loader": "^3.0.8"
+    }
+}

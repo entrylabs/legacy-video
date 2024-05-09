@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "lib": ["es6", "dom", "webworker"],
+        "module": "ESNext",
+        "target": "ES5",
+        "moduleResolution": "node",
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*", "types/**/*", "types/global.d.ts"]
+}
